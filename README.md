@@ -1,5 +1,5 @@
 # randomize-color-js
-Randomize color with jQuery\
+Randomize color with JS
 
 # code
 ```
