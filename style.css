@@ -6,6 +6,9 @@ div {
     left: 0;
     background-color: #ccc;
     transition: 0.5s ease-out;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 button {
@@ -13,7 +16,6 @@ button {
     background: rgba(0,0,0,.5);
     color: #fff;
     border: 0;
-    font-size: 36px;
     cursor: pointer;
     top: 50%;
     left: 50%;
@@ -29,4 +31,11 @@ button:hover {
 
 button:active {
     box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,.4);
+}
+
+.dec {
+    top: 20%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-transform: uppercase;
 }
