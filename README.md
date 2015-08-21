@@ -7,7 +7,11 @@ function go(){
 	return Math.round(Math.random() * 255);
 }
 
-$('button').click(function(){
-	$('div').css({ "background-color": "rgb(" + go() + "," + go() + "," + go() + ")" });	
-})
+function getColor(){
+	var r = go();
+	var g = go();
+	var b = go();
+	return "rgb(" + r + "," + g + "," + b + ")"
+}
+//example of return: "rgb(175, 255, 250)"
 ```
