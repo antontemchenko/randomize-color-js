@@ -9,10 +9,16 @@ $( document ).ready(function() {
 	}
 
 	$('button').click(function(){
+		getColor();
+	});
+
+	function getColor() {
 		var r = go();
 		var g = go();
 		var b = go();
 		$('div').css({ "background-color": "rgb(" + r + "," + g + "," + b + ")" });	
 		$('.dec').html("rgb(" + r + "," + g + "," + b + ") &nbsp;" +  "#" + componentToHex(r) + componentToHex(g) + componentToHex(b));
-	})
+	}
+
+	getColor();
 });
