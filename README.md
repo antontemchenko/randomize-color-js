@@ -1,6 +1,9 @@
 # randomize-color-js
 Randomize color with JS
 
+#Demo
+[Watch demo](http://anton.temchenko.com.ua/dev/randomize-color-js/)
+
 # code
 ```
 function go(){
